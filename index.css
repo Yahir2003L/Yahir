@@ -683,13 +683,13 @@ footer{
     .grid{
         display: grid;
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: repeat(5,auto);
+        grid-template-rows: repeat(6,auto);
         grid-template-areas: "header header header header"
                             "section-1 section-1 section-1 section-1"
                             "section-2 section-2 section-2 section-2"
                             "section-3 section-3 section-3 section-3"
                             "section-4 section-4 section-4 section-4"
-                            " footer footer footer footer footer";
+                            " footer footer footer footer ";
     }
 
     header{
@@ -733,7 +733,9 @@ footer{
     .section-2{
         grid-area: section-2;
         height: 100vh;
+        background-image: url('.//escritores/julio\ verne.jpg');
         background-position: center;
+        background-attachment: fixed;
     }
 
     .section-2 h2{
@@ -763,7 +765,7 @@ footer{
 
     .section-3{
         grid-area: section-3;
-        height: 150vh;
+        height: 168vh;
     }
 
     .section-4{
@@ -834,6 +836,10 @@ footer{
       .contact{
         font-size: 2em;
         margin-top: 20px;
+      }
+
+      .block button:active{
+        background-color: #0f0d0d;
       }
 
     footer{

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../img de jujutsu"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pagina web libros"
+	}
+}
