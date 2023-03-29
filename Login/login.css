@@ -10,7 +10,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('./escritores/allan\ pinterest.jpg');
+    background-image: url('./allan\ pinterest.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -136,7 +136,7 @@ button:active{
 
 @media only screen and (max-width:500px){
     section{
-        background-image: url('.//escritores/allan\ poe.jpg');
+        background-image: url('.//allan\ poe.jpg');
         background-position: center;
     }
 

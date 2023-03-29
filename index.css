@@ -734,6 +734,8 @@ footer{
         grid-area: section-2;
         height: 100vh;
         background-image: url('.//escritores/julio\ verne.jpg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
     }
