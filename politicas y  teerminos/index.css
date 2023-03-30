@@ -40,7 +40,7 @@ header{
 .section__politicas{
     grid-area: section;
     text-align: justify;
-    height: 170vh;
+    height: 180vh;
     margin-top: 100px;
     padding: 10px 20px;
 }
@@ -329,7 +329,7 @@ footer{
 
     .section__politicas{
         grid-area: section;
-        height: 330vh;
+        height: 340vh;
         background-position: center;
     }
 

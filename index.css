@@ -180,7 +180,7 @@ header{
 .section-2{
     grid-area: section-2;
     height: 200vh;
-    background-image: url('.//escritores/julio\ verne.webp');
+    background-image: url('.//escritores/fondo.jpg');
     background-size: cover;
     background-position: top;
     object-fit: cover;
@@ -734,8 +734,7 @@ footer{
         grid-area: section-2;
         height: 100vh;
         background-image: url('.//escritores/julio\ verne.jpg');
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
+        background-size: contain;
         background-position: center;
         background-attachment: fixed;
     }
