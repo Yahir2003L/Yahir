@@ -736,6 +736,7 @@ footer{
         background-image: url('.//escritores/julio\ verne.jpg');
         background-size: contain;
         background-position: center;
+        object-fit: cover;
         background-attachment: fixed;
     }
 
