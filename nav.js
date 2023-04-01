@@ -4,6 +4,8 @@ menu.onclick = function(){
     navs.classList.toggle("activo");
 }
 
+/* remove toggle icon and navbar */
+
 
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header ul li a');
@@ -22,4 +24,14 @@ window.onscroll = () => {
             });
         };
     });
+
+
+    let header =  document.querySelector('header');
+
+    header.classList.toggle('sticky', window.scrollY > 100);
+
+    
+    navs.classList.remove("activo");
+
 };
+

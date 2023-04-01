@@ -301,11 +301,12 @@ header{
 
 .contenedor-title-btn .indicadores button{
     background: #fff;
-    height: 3px;
+    height: 10px;
     width: 10px;
     cursor: pointer;
     border: none;
-    margin-right: 2px;
+    margin-right: 7px;
+    border-radius: 50%;
 }
 
 .contenedor-title-btn .indicadores button:hover,
@@ -317,6 +318,13 @@ header{
 .libros-novedades{
     padding: 30px;
     margin-bottom: 70px;
+    position: relative;
+}
+
+.libros-novedades .indicadores{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
 }
 
 .libros-novedades .contenedor-principal{

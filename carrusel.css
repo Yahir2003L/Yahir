@@ -14,11 +14,12 @@
 
 .contenedor-title-btn-2 .indicadores2 button{
     background: #fff;
-    height: 3px;
+    height: 10px;
     width: 10px;
     cursor: pointer;
     border: none;
-    margin-right: 2px;
+    margin-right: 7px;
+    border-radius: 50%;
 }
 
 .contenedor-title-btn-2 .indicadores2 button:hover,
@@ -30,6 +31,13 @@
 .libros-novedades2{
     padding: 30px;
     margin-bottom: 70px;
+    position: relative;
+}
+
+.libros-novedades2 .indicadores2{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
 }
 
 .libros-novedades2 .contenedor-principal2{
@@ -125,11 +133,12 @@
 
 .contenedor-title-btn-3 .indicadores3 button{
     background: #fff;
-    height: 3px;
+    height: 10px;
     width: 10px;
     cursor: pointer;
     border: none;
-    margin-right: 2px;
+    margin-right: 7px;
+    border-radius: 50%;
 }
 
 .contenedor-title-btn-3 .indicadores3 button:hover,
@@ -141,6 +150,13 @@
 .libros-novedades3{
     padding: 30px;
     margin-bottom: 70px;
+    position: relative;
+}
+
+.libros-novedades3 .indicadores3{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
 }
 
 .libros-novedades3 .contenedor-principal3{
@@ -235,11 +251,12 @@
 
 .contenedor-title-btn-4 .indicadores4 button{
     background: #fff;
-    height: 3px;
+    height: 10px;
     width: 10px;
     cursor: pointer;
     border: none;
-    margin-right: 2px;
+    margin-right: 7px;
+    border-radius: 50%;
 }
 
 .contenedor-title-btn-4 .indicadores4 button:hover,
@@ -251,6 +268,13 @@
 .libros-novedades4{
     padding: 30px;
     margin-bottom: 70px;
+    position: relative;
+}
+
+.libros-novedades4 .indicadores4{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
 }
 
 .libros-novedades4 .contenedor-principal4{
@@ -347,11 +371,12 @@
 
 .contenedor-title-btn-5 .indicadores5 button{
     background: #fff;
-    height: 3px;
+    height: 10px;
     width: 10px;
     cursor: pointer;
     border: none;
-    margin-right: 2px;
+    margin-right: 7px;
+    border-radius: 50%;
 }
 
 .contenedor-title-btn-5 .indicadores5 button:hover,
@@ -363,6 +388,13 @@
 .libros-novedades5{
     padding: 30px;
     margin-bottom: 70px;
+    position: relative;
+}
+
+.libros-novedades5 .indicadores5{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
 }
 
 .libros-novedades5 .contenedor-principal5{
@@ -445,4 +477,39 @@
     h4{
         font-size: 1em;
     }
+
+    
+    .libros-novedades .indicadores{
+        position: absolute;
+        bottom: 0;
+        left: 43%;
+    }
+
+    
+    .libros-novedades2 .indicadores2{
+        position: absolute;
+        bottom: 0;
+        left: 43%;
+    }
+
+    
+    .libros-novedades3 .indicadores3{
+        position: absolute;
+        bottom: 0;
+        left: 43%;
+    }
+
+    
+    .libros-novedades4 .indicadores4{
+        position: absolute;
+        bottom: 0;
+        left: 43%;
+    }
+
+    .libros-novedades5 .indicadores5{
+        position: absolute;
+        bottom: 0;
+        left: 43%;
+    }
+    
 }
